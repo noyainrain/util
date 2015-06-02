@@ -1,0 +1,21 @@
+test:
+
+bad long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long line
+good long line with http://example.org/long/long/long/long/long/long/long/long/long/long/long/long/url
+good long line with "long, long, long, long, long, long, long, long, long, long, long, long, long, string"
+good long line with 'long, long, long, long, long, long, long, long, long, long, long, long, long, string'
+
+ bad indentation
+<!--
+ good indentation
+-->
+ bad indentation
+<input type="text"
+       value="good indentation"/>
+ bad indentation
+
+trailing space -> 
+
+	<- tab
+
+no newline here
